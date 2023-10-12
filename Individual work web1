@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sololearn</title>
+    </head>
+    <body>
+        <header></header>
+        <nav></nav>
+        <div class="main"></div>
+        <footer></footer>
+    </body>
+</html>
