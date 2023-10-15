@@ -1,12 +1,132 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Sololearn</title>
+        <style>
+            html {
+                font-family: sans-serif;
+            }
+            body {
+                background-color: #ccc;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                margin: 0;
+            }
+            .main {
+                display: flex;
+                flex-direction: column;
+            }
+            .subject {
+                display: flex;
+                flex-direction: row;
+                width: 50%;
+                background-color: white;
+                border-radius: 1rem;
+                margin: 24px auto;
+                padding: 20px;
+                gap: 20px;
+            }
+            post{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+            }
+            .html-text {
+                flex: 1;
+                font-size: 16px;
+            }
+            img.html {
+                border-radius: 50%;
+                height: 5rem;
+                object-fit: cover;
+                width: 5rem;
+            }
+            .steps{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                background-color: #ccc;
+                margin: 24px auto;
+                padding: 20px;
+                gap: 20px;
+            }
+            .lists{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                border-bottom: #ccc;
+                border: 3px;
+            }
+            .footer{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                align-self: center;
+                flex-grow: 1;
+                width: 50%;
+            }
+            .cert {
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+                border-radius: 1rem;
+                margin: 24px auto;
+                padding: 20px;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                align-self: center;
+            }
+            button{
+                background-color: #2493df;
+                color: #fff;
+                border: 1px solid #2493df;
+                border-radius: 0.3rem;
+                height: 40px;
+                width: 50%;
+                align-items: center;
+                align-self: center;
+                justify-content: center;
+            }
+        </style>
     </head>
     <body>
-        <header></header>
-        <nav></nav>
-        <div class="main"></div>
-        <footer></footer>
+        <div class="header"></div>
+        <div class="main">
+            <div class="subject">
+                <post>
+                    <media><img class="html" src="https://lecontent.sololearn.com/material-images/c204b889fee74286863897e801643117-1014 (1) Small 2 Large.png" alt="Introduction to HTML"></media>
+                    <div class="html-text">
+                        <h1>Introduction to HTML</h1>
+                        <p>HTML is at the core of every web page. It’s beginner-friendly and knowing the basics is useful for everyone who works in digital design, marketing, content and more. If you’re interested in front-end web development, this course is a great place to start! You don’t need any previous coding experience, and we have plenty of other courses for you to deepen your knowledge once you’re finished, including CSS and JavaScript.</p>
+                    </div>
+                </post>
+            </div>
+            <div class="steps">
+                <div class="lists">
+                    <img>
+                    <h4>Getting Started</h4>
+                </div>
+                <div class="lists">
+                    <img>
+                    <h4>More HTML Elements</h4>
+                </div>
+                <div class="lists">
+                    <img>
+                    <h4>Forms & Media</h4>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="cert">
+                <img class="paper" src="file:///C:/Users/user/Downloads/CertificateEnabled.webp">
+                <h2>You earned your certificate</h2>
+                <p>The certificate is ready to claim for you. You did an amazing job in the course and earned it.</p>
+                <button>Claim Certificate</button>
+            </div>
+        </div>
     </body>
 </html>
